@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgba(9, 130, 242, 0.349);
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Bungee Spice', sans-serif;
+    background-color: black;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Tektur', sans-serif;
+    font-size: 30px;
+    margin-left: 75px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 40px;
+    color: rgb(186, 100, 9);
+    font-weight: 800;
+}
+
+#userScore {
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(77, 77, 178);
+}
+
+#compScore {
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(77, 77, 178);
+}
+
+
+.choices {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 250px;
+
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+
+}
+
+.choice :hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    font-size: 30px;
+    font-family: 'Rubik Burned', system-ui;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstchild-container {
+    background-color: rgba(222, 184, 135, 0.317);
+    min-height: 350px;
+    height: 400px;
+    min-width: 40vw;
+    width: 45vw;
+    margin-top: 30px;
+    font-family: 'Tektur', sans-serif;
+
+
+
+}
+
+.secondchild-container {
+    background-color: rgba(222, 184, 135, 0.317);
+    min-height: 350px;
+    height: 400px;
+    min-width: 40vw;
+    width: 45vw;
+    margin-top: 30px;
+    font-family: 'Tektur', sans-serif;
+}
+.footer{
+    background-color: rgba(255, 255, 0, 0.45);
+    width: 400px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    
+}
+.footer h5{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif; ;
+}
+
+
+.winner {
+    background-color: rgba(0, 128, 0, 0.265);
+    color: black;
+}
+
+.win {
+    color: green;
+}
+
+.loser {
+    background-color: rgba(237, 1, 1, 0.498);
+    color: black;
+}
+
+.lose {
+    color: rgb(225, 87, 87);
+}
+
+.draw {
+    background-color: rgba(26, 14, 1, 0.429);
+}
+
+.Draw {
+    color: rgba(26, 14, 1, 0.429);
+}
