@@ -76,14 +76,13 @@ h1 {
 
 }
 
-img {
-    width: 150px;
-    height: 150px;
+img{
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     object-fit: cover;
-
-
 }
+
 
 .output {
     display: flex;
