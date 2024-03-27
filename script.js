@@ -34,7 +34,7 @@ const compChoice = () => {
     return option[idx]
 
 }
-const draw = (compChoice,userChoice) => {
+const draw = () => {
 
     head.innerHTML = "<h5>Match was Draw!!</h5>"
     head.classList.remove("win")
